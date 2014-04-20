@@ -1,0 +1,5 @@
+[25-Sep-2013 17:24:11 America/New_York] PHP Parse error:  syntax error, unexpected T_ECHO in /home/zreafoql/public_html/test.php on line 11
+[25-Sep-2013 17:24:23 America/New_York] PHP Parse error:  syntax error, unexpected T_ECHO in /home/zreafoql/public_html/test.php on line 11
+[25-Sep-2013 17:24:31 America/New_York] PHP Parse error:  syntax error, unexpected T_ECHO in /home/zreafoql/public_html/test.php on line 11
+[26-Sep-2013 14:49:31 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/zreafoql/public_html/test.php on line 16
+[26-Sep-2013 14:49:33 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/zreafoql/public_html/test.php on line 16

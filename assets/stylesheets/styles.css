@@ -1,60 +1,371 @@
-::selection{ background-color: #E13300; color: white; }
-::moz-selection{ background-color: #E13300; color: white; }
-::webkit-selection{ background-color: #E13300; color: white; }
+* {
+     outline: medium none;
+}
 
 body {
-    background-color: #fff;
-    margin: 40px;
-    font: 13px/20px normal Helvetica, Arial, sans-serif;
-    color: #4F5155;
+     background-attachment: fixed;
+     background-image: url("../images/backgroundd.jpg");
+     background-repeat: repeat;
+     cursor: default;
 }
 
-a {
-    color: #003399;
-    background-color: transparent;
-    font-weight: normal;
+#main-content {
+    
 }
 
-h1 {
-    color: #444;
-    background-color: transparent;
-    border-bottom: 1px solid #D0D0D0;
-    font-size: 19px;
-    font-weight: normal;
-    margin: 0 0 14px 0;
-    padding: 14px 15px 10px 15px;
+#pageOutlineContainer * {
+     margin-right: auto;
 }
 
-code {
-    font-family: Consolas, Monaco, Courier New, Courier, monospace;
-    font-size: 12px;
-    background-color: #f9f9f9;
-    border: 1px solid #D0D0D0;
-    color: #002166;
-    display: block;
-    margin: 14px 0 14px 0;
-    padding: 12px 10px 12px 10px;
+.realtor {
+     text-align: center;
 }
 
-#body{
-    margin: 0 15px 0 15px;
+body .realtyclick {
+     left: -5px;
+     position: relative;
 }
 
-p.footer{
-    text-align: right;
-    font-size: 11px;
-    border-top: 1px solid #D0D0D0;
-    line-height: 32px;
-    padding: 0 10px 0 10px;
-    margin: 20px 0 0 0;
+#shadow {
+     color: #000010;
+     font-size: x-large;
 }
 
-#container{
-    margin: 10px;
-    border: 1px solid #D0D0D0;
-    -webkit-box-shadow: 0 0 8px #D0D0D0;
+#header {
+     color: #000010;
+     font-family: 'Patua One';
+     font-size: x-large;
+     margin: 13px;
+     position: relative;
+     text-align:center;
 }
 
-form {
+.infoContainer {
+     height: 420px;
+     left: 170px;
+     position: relative;
+     text-align: center;
+     width: 600px;
+}
+
+.cc {
+     color: #000000;
+     font-size: large;
+     text-align: center;
+     text-shadow: 0.1em 0.1em 0.2em #CCCCFF;
+}
+
+.b {
+     font-size: x-large;
+     list-style-image: url("http://www.zrealtytampa.com/images/f_icon.png");
+     position: absolute;
+     right: 350px;
+     text-shadow: 0.01em 0.01em 0.01em #66CCFF;
+     width: 300px;
+}
+
+.a {
+     font-size: x-large;
+     height: 200px;
+     left: 300px;
+     list-style-image: url("http://www.zrealtytampa.com/images/house_home.png");
+     position: absolute;
+     text-shadow: 0.01em 0.01em 0.01em #66CCFF;
+     top: 2px;
+     width: 400px;
+}
+
+.a li:hover {
+     color: #0000FF;
+}
+
+#infos {
+     color: #000000;
+     font-size: x-large;
+     height: 500px;
+     left: 280px;
+     list-style-type: circle;
+     position: relative;
+     text-align: center;
+     text-shadow: 0.01em 0.01em 0.01em #66CCFF;
+     width: 460px;
+}
+
+#infos .right {
+     bottom: 390px;
+     left: 240px;
+     position: relative;
+}
+
+#infos .left {
+     bottom: 10px;
+     left: -260px;
+     position: relative;
+}
+
+#infos h3 {
+     font-weight: bold;
+     text-decoration: underline;
+}
+
+hr {
+     width: 60%;
+}
+
+table {
+     padding: 0px;
+     vertical-align: top;
+}
+
+.left_info {
+     left: -130px;
+     margin: 0px auto;
+     opacity: 1;
+     position: absolute;
+     text-align: center;
+     top: 135px;
+}
+
+.left_info img {
+     left: 3px;
+     position: relative;
+}
+
+.infosa {
+     font-family: 'Gudea';
+     font-size: x-large;
+     text-align: center;
+}
+
+.infosa em {
+     color: #FF0000;
+     font-size: x-large;
+     text-shadow: 0px 1px 0px #CCCCCC, 0px 2px 0px #C9C9C9, 0px 3px 0px #BBBBBB, 0px 4px 0px #B9B9B9, 0px 5px 0px #AAAAAA, 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px, 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+img.topbanner {
+     
+     height: 205px;
+     margin: 0px auto;
+     width: 100%;
+}
+
+#listinggallery {
+     border-collapse: collapse;
+     border-spacing: 0.1em;
+     display: table;
+     font-size: 0.83em;
+     text-align: center;
+}
+
+#listinggallery tr.border_top td {
+     background-color: #FFFFFF;
+     border-collapse: collapse;
+     border: 1px solid #000000;
+}
+
+#listinggallery a img {
+     background-color: #000000;
+     height: 100px;
+     padding: 0.5em;
+     width: 120px;
+}
+
+#listinggallery img {
+     background-color: #000000;
+     height: auto;
+     padding: 0.5em;
+     width: auto;
+}
+
+#listinggallery td {
+     font-family: 'Andika',sans-serif;
+     padding: 0.2em;
+}
+
+.container .containerbackground {
+     background-color: #FF6633;
+     border: 1px solid #FF3300;
+     display: inline-block;
+     height: 100%;
+     opacity: 0.5;
+     width: 500px;
+}
+
+.container {
+     height: 140px;
+     left: 250px;
+     position: relative;
+     width: 500px;
+}
+
+#contact {
+     bottom: 163px;
+     font-size: x-large;
+     font-weight: bold;
+     position: relative;
+     text-shadow: 0.1em 0.1em 0.2em #FFFFFF;
+}
+
+#contact h3 {
+     text-decoration: underline;
+}
+
+#listinggallery tr .border_top td .ah {
+     background-color: #FFFFFF;
+     display: inline-block;
+     font-style: normal;
+     position: relative;
+     text-decoration: underline;
+     width: 100%;
+}
+
+#listinggallery tr .border_top td .ah:before {
+     background-color: #FF0000;
+     content: "";
+     display: block;
+     height: 100%;
+     opacity: 0.2;
+     position: absolute;
+     width: 100%;
+     z-index: -1;
+}
+
+#header span {
+     border-bottom: 1px ridge #000000;
+}
+
+a:link {
+     color: #00005C;
+}
+
+a:visited {
+     color: #00005C;
+}
+
+a:hover {
+     color: #0000FF;
+}
+
+a:active {
+     color: #FFFF00;
+}
+
+.foot_info {
+     font-family: 'Istok Web',sans-serif;
+     font-variant: small-caps;
+     left: 150px;
+     position: relative;
+     text-align: center;
+     width: 700px;
+}
+
+.foot_info hr {
+     color: #000000;
+}
+
+#tooltip {
+     background: url("http://www.zrealtytampa.com/images/srdeI.jpg") no-repeat scroll -5px -12px transparent;
+     border: 2px solid;
+     clear: both;
+     display: none;
+     height: 311px;
+     position: absolute;
+     width: 579px;
+}
+
+.back {
+     background: none repeat scroll 0px 0px transparent;
+}
+
+.right ul {
+     list-style-type: circle;
+}
+
+#pageOutlineContainer {
+     border: 2px solid;
+     height: auto;
+     margin: 0px auto;
+     position: relative;
+     width: 1005px;
+}
+
+#pageOutlineContainer .outlinecontainerbackground {
+     background-color: #FFFFFF;
+     height: 100%;
+     opacity: 0.5;
+     position: absolute;
+     width: 1005px;
+     z-index: -1;
+}
+
+#tabs {
+     background: none repeat scroll 0px 0px transparent;
+     border: 0px none;
+     position: relative;
+     width: auto;
+}
+
+.footer {
+     background-color: #808080;
+     border-top: 2px solid #808080;
+     height: 20px;
+     margin: 0px auto;
+}
+
+.footer a {
+     font-size: 0.8em;
+}
+
+.footer #designer_link {
+     left: 0px;
+     padding-left: 1em;
+     position: absolute;
+}
+
+#tabs .tabs-spacer {
+     float: left;
+     height: 300px;
+}
+
+.tabs-bottom .ui-tabs-nav {
+     background: none repeat scroll 0px 0px transparent;
+     border: 0px none;
+     clear: left;
+     float: left;
+     padding: 0px;
+}
+
+.tabs-bottom .ui-tabs-nav li {
+     border-radius: 14px;
+     border: 1px solid black;
+     background-color:white;
+     bottom: 0px;
+     color: #0000FF;
+     left: 290px;
+     margin: 0px 0.2em 1px 0px;
+     position: relative;
+     top: auto;
+}
+
+.tabs-bottom .ui-tabs-nav li.ui-tabs-active {
+     margin-top: -1px;
+     padding-top: 1px;
+}
+
+#image_table td {
+     width: 80%;
+}
+
+#image_table img {
+     height: 100%;
+     width: 100%;
+}
+
+span .italic {
+     font-style: italic;
+}
+
+div#shadow li {
 padding: 12px;
 }
