@@ -274,8 +274,10 @@ a:active {
      width: 579px;
 }
 
-.back {
+.linkbutton {
      background: none repeat scroll 0px 0px transparent;
+     margin:0 auto;
+     display:block;
 }
 
 .right ul {

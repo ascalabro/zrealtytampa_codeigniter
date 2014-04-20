@@ -59,7 +59,7 @@
     Michael's Email: zrealtor@hotmail.com
 </div>
 
-<a href="listings"><img style='margin:0 auto;position:relative;' alt="<?php echo $img_alt_tag; ?>" src="assets/images/viewmyComp.png"></a></p>
+<a href="listings"><img style='margin:0 auto;position:relative;' class="linkbutton" alt="<?php echo $img_alt_tag; ?>" src="assets/images/viewmyComp.png"></a></p>
 
 <br>
 
