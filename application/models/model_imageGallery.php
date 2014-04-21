@@ -11,30 +11,7 @@ class model_imageGallery extends CI_Model {
     public function __construct() {
         parent::__construct();
         $this->load->database();
-//        $this->connection = $connection;
-//        $this->listings_query_result =  mysqli_query($this->connection, $this->active_listings_query);
-//            if (!$this->listings_query_result){
-//                die("database query failed.");
-//            }
     }
-
-//    public function get_active_listings_set(){
-//         while($active_listings_set = mysqli_fetch_assoc($this->listings_query_result)){
-//             $this->images_query = "SELECT * FROM listings_gallery WHERE listing_assoc_id = " . $active_listings_set['listing_id'];
-//             $this->images_query_result = mysqli_query($this->connection, $this->images_query);
-//             $stop_after_first_line = false;
-//                while($images_set = mysqli_fetch_assoc($this->images_query_result)){
-//                    while($stop_after_first_line == false){
-//                        echo   "var viewer" . $active_listings_set['listing_id'] . "= new PhotoViewer();";
-//                        $stop_after_first_line = true;
-//                    }
-//                    echo "viewer" . $active_listings_set['listing_id'] . ".add(' " . $images_set['img_path'] . "');";
-//                   
-//                }
-//                
-//            }
-//            
-//    }
 
     public function get_active_listings() {
         $result = $this->db->query("SELECT * FROM my_listings WHERE isActive = 1");
@@ -67,13 +44,6 @@ class model_imageGallery extends CI_Model {
                 }
                 $js .= "viewer" . $active_listing_row['listing_id'] . ".add('assets/" . $image_set['img_path'] . "');";
             }
-//            while ($images_set = mysqli_fetch_assoc($this->images_query_result)) {
-//                while ($stop_after_first_line == false) {
-//                    echo "var viewer" . $active_listings_set['listing_id'] . "= new PhotoViewer();";
-//                    $stop_after_first_line = true;
-//                }
-//                echo "viewer" . $active_listings_set['listing_id'] . ".add(' " . $images_set['img_path'] . "');";
-//            }
         }
         return $js;
     }
